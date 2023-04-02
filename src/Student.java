@@ -7,7 +7,8 @@ public class Student {
     private int studentID;
     private String courses;
     private int tuitionBalance;
-    private int costOfCourse = 600;
+    private static int costOfCourse = 600;
+    private static int id;
 
     public Student() {
         Scanner in = new Scanner(System.in);
@@ -21,6 +22,9 @@ public class Student {
         this.gradeYear = in.nextInt();
 
         System.out.println(firstName + " " + lastName + " " + gradeYear);
+
+        id++;
     }
+
 
 }
