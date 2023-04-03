@@ -15,7 +15,7 @@ public class Student {
         System.out.println("Enter first name:");
         this.firstName = in.nextLine();
 
-        System.out.println("Enter first name:");
+        System.out.println("Enter last name:");
         this.lastName = in.nextLine();
 
         System.out.println("1 - Freshman\n2 - Sophomore\n3 - Junior\n4 - Senior\nEnter students class level:");
@@ -64,5 +64,4 @@ public class Student {
                 "\nCourses: " + courses +
                 "\nBalance: $" + tuitionBalance;
     }
-
 }
